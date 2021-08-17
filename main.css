@@ -1,0 +1,91 @@
+body {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+	background: #ffffff;
+	
+}
+
+#head{
+	color: rgb(59, 59, 59);
+	font-size: 3vw;
+	margin: 0% 0% -4% 0%;
+	padding: 0% 2% 0% 2%;
+	/* text-shadow: 2px 2px 12px black; */
+}
+
+#p {
+	margin: 0% 0% 0% 0%;
+}
+
+nav ul li {
+	color: white;
+	font-size: 1.2vw;
+	text-align: right;
+	display: inline-block;
+	list-style-type: inline;
+	padding: 1% 2% 1% 0%;
+	margin: 0% 2% 0% 0%;
+}
+
+nav ul li a {
+	left: 70%;
+	text-align: right;
+	color: rgb(59,59,59) ;
+	font-size: 1.2vw;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgb(236, 236, 236);
+	border-radius: 10px;
+}
+
+#lists {
+	text-align: right;
+	margin-top: 0%;
+}
+
+#bodyimage {
+	background-image: url("InvyLake.jpeg");
+  	height: 800PX;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	  position: relative;
+	  margin: 0% 2% 0% 2%;
+}
+
+#text1 {
+	text-align: center;
+	position: absolute;
+	padding-bottom: 10%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 4vw;
+}
+
+#text2 {
+	text-align: center;
+	position: absolute;
+	padding-top: 10%;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 1.5vw;
+}
+
+footer {
+	font-size: 1vw;
+	position:sticky;
+  	left: 0;
+ 	bottom: 0;
+	width: 100%;
+  	color: rgb(59,59,59)s;
+	text-align: center;
+	padding: 0.5% 0% 0.5% 0%;
+}
